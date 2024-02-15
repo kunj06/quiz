@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+    <section class="login-1">
+    <div class="login-2" data-aos="zoom-in">
+      <div class="image">
+        <img src="images/img-21.jpg" alt="" />
+      </div>
+
+      <div class="details">
+        <form action="">
+          <h2 data-aos="fade-down">login</h2>
+
+          <div class="details-1">
+            <h3 data-aos="flip-down">Email address</h3>
+            <input data-aos="flip-down" type="email" placeholder="you@example.com" class="box" />
+
+            <h3 data-aos="flip-down">password</h3>
+            <input data-aos="flip-down"
+              type="password"
+              placeholder="enter your password"
+              class="box"
+            />
+          </div>
+
+          <div class="remember">
+            <input type="checkbox" class="remember-me" />
+            <label for="remember-me">remember me</label>
+          </div>
+
+          <a href="play-1.html"><button data-aos="flip-down" type="button"  class="btn" >login now</button></a>
+
+          <div class="details-2">
+            <div class="line"></div>
+            <p>or login with</p>
+            <div class="line"></div>
+          </div>
+
+          <div class="details-3">
+            <button data-aos="flip-down" class="btn-1">
+              <img src="images/img-22.jpg" alt="" />google
+            </button>
+
+            <button data-aos="flip-down" class="btn-2">
+              <img src="images/img-23.jpg" alt="" />facebook
+            </button>
+          </div>
+          <div class="now">
+          <p>not have an account? <a href="register.html">  register now</a></p>
+        </div>
+        </form>
+      </div>
+    </div>
+</section>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          Offset:300,
+          duration:1250,
+      });</script>
+  </body>
+</html>
